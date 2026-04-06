@@ -136,6 +136,68 @@ git push origin master</code></pre>
         </div>
       </article>
     </section>
+    <header class="text-center mb-12">
+      <h1 class="text-3xl md:text-5xl font-extrabold text-white tracking-tight">
+        Comandos Para Crear Ramas en Git
+      </h1>
+    </header>
+    <section class="grid gap-6">
+      <article class="group rounded-2xl border border-white/10 bg-white/5 backdrop-blur-md shadow-xl shadow-black/20 p-6 hover:border-indigo-400/30 transition">
+        <div class="flex items-start gap-4">
+          <div class="shrink-0 w-12 h-12 rounded-xl bg-indigo-600 text-white flex items-center justify-center font-bold text-lg shadow-lg shadow-indigo-950/40">01</div>
+          <div class="w-full">
+            <h2 class="text-lg md:text-xl font-bold text-white">Verificamos que Ramas Tenemos </h2>
+            <p class="text-slate-400 text-sm mt-1">Verificacion inicial de que si tenemos alguna rama existente</p>
+            <div class="mt-4 rounded-xl bg-slate-950/80 border border-emerald-500/20 overflow-hidden">
+              <div class="flex items-center gap-2 px-4 py-2 border-b border-white/5 bg-slate-900/80">
+                <span class="w-3 h-3 rounded-full bg-red-400"></span>
+                <span class="w-3 h-3 rounded-full bg-yellow-400"></span>
+                <span class="w-3 h-3 rounded-full bg-green-400"></span>
+                <span class="ml-3 text-xs text-slate-500">Terminal</span>
+              </div>
+              <pre class="p-4 text-sm md:text-base font-mono text-emerald-400 whitespace-pre-wrap"><code>git branch</code></pre>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="group rounded-2xl border border-white/10 bg-white/5 backdrop-blur-md shadow-xl shadow-black/20 p-6 hover:border-indigo-400/30 transition">
+        <div class="flex items-start gap-4">
+          <div class="shrink-0 w-12 h-12 rounded-xl bg-indigo-600 text-white flex items-center justify-center font-bold text-lg shadow-lg shadow-indigo-950/40">02</div>
+          <div class="w-full">
+            <h2 class="text-lg md:text-xl font-bold text-white">Creacion de una nueva Rama </h2>
+            <p class="text-slate-400 text-sm mt-1">Creamos una nueva rama para hacer los cambios nesesarios sin afectar la rama principal</p>
+            <div class="mt-4 rounded-xl bg-slate-950/80 border border-emerald-500/20 overflow-hidden">
+              <div class="flex items-center gap-2 px-4 py-2 border-b border-white/5 bg-slate-900/80">
+                <span class="w-3 h-3 rounded-full bg-red-400"></span>
+                <span class="w-3 h-3 rounded-full bg-yellow-400"></span>
+                <span class="w-3 h-3 rounded-full bg-green-400"></span>
+                <span class="ml-3 text-xs text-slate-500">Terminal</span>
+              </div>
+              <pre class="p-4 text-sm md:text-base font-mono text-emerald-400 whitespace-pre-wrap"><code>git branch "Nombre_de_la_Rama"</code></pre>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="group rounded-2xl border border-white/10 bg-white/5 backdrop-blur-md shadow-xl shadow-black/20 p-6 hover:border-indigo-400/30 transition">
+        <div class="flex items-start gap-4">
+          <div class="shrink-0 w-12 h-12 rounded-xl bg-indigo-600 text-white flex items-center justify-center font-bold text-lg shadow-lg shadow-indigo-950/40">03</div>
+          <div class="w-full">
+            <h2 class="text-lg md:text-xl font-bold text-white">Cambiamos a la Nueva Rama </h2>
+            <p class="text-slate-400 text-sm mt-1">Si ya tenemos creada la nueva rama tenemos que cambiarla a esa rapa para poder modificar, sin afectar a la rama master o main</p>
+            <div class="mt-4 rounded-xl bg-slate-950/80 border border-emerald-500/20 overflow-hidden">
+              <div class="flex items-center gap-2 px-4 py-2 border-b border-white/5 bg-slate-900/80">
+                <span class="w-3 h-3 rounded-full bg-red-400"></span>
+                <span class="w-3 h-3 rounded-full bg-yellow-400"></span>
+                <span class="w-3 h-3 rounded-full bg-green-400"></span>
+                <span class="ml-3 text-xs text-slate-500">Terminal</span>
+              </div>
+              <pre class="p-4 text-sm md:text-base font-mono text-emerald-400 whitespace-pre-wrap"><code>git switch "Nombre_de_la_Rama"</code></pre>
+            </div>
+             <p class="text-slate-400 text-sm mt-1">Una ves ya estamos en la nueva rama se nos copiara todo el codigo de la rama master y podemos realizar los cambios</p>
+          </div>
+        </div>
+      </article>
+    </section>
   </main>
 </body>
 </html>
