@@ -4,15 +4,19 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <script src="https://cdn.tailwindcss.com"></script>
-  <title>Practica Guía Git y GitHub</title>
+  <title>Práctica - Guía Git y GitHub</title>
 </head>
-<body class="min-h-screen bg-gradient-to-br from-slate-950 via-slate-900 to-indigo-950 text-slate-200">
-  <div class="absolute inset-0 -z-10 overflow-hidden">
+<body class="relative min-h-screen overflow-x-hidden bg-gradient-to-br from-slate-950 via-slate-900 to-indigo-950 text-slate-200">
+
+  <!-- Fondo decorativo -->
+  <div class="pointer-events-none fixed inset-0 overflow-hidden">
     <div class="absolute top-0 left-0 w-72 h-72 bg-indigo-600/20 blur-3xl rounded-full"></div>
     <div class="absolute bottom-0 right-0 w-80 h-80 bg-cyan-500/10 blur-3xl rounded-full"></div>
   </div>
 
-  <main class="max-w-5xl mx-auto px-4 py-10 md:py-16">
+  <main class="relative z-10 max-w-5xl mx-auto px-4 py-10 md:py-16">
+
+    <!-- Encabezado principal -->
     <header class="text-center mb-12">
       <span class="inline-block px-4 py-1.5 rounded-full bg-indigo-500/10 border border-indigo-400/20 text-indigo-300 text-sm font-medium mb-4">
         Guía rápida de Git y GitHub
@@ -25,13 +29,19 @@
       </p>
     </header>
 
-    <section class="grid gap-6">
+    <!-- Sección 1 -->
+    <section class="grid gap-6 mb-16">
+
       <article class="group rounded-2xl border border-white/10 bg-white/5 backdrop-blur-md shadow-xl shadow-black/20 p-6 hover:border-indigo-400/30 transition">
         <div class="flex items-start gap-4">
-          <div class="shrink-0 w-12 h-12 rounded-xl bg-indigo-600 text-white flex items-center justify-center font-bold text-lg shadow-lg shadow-indigo-950/40">01</div>
+          <div class="shrink-0 w-12 h-12 rounded-xl bg-indigo-600 text-white flex items-center justify-center font-bold text-lg shadow-lg shadow-indigo-950/40">
+            01
+          </div>
           <div class="w-full">
             <h2 class="text-lg md:text-xl font-bold text-white">Inicializar proyecto</h2>
-            <p class="text-slate-400 text-sm mt-1">Crea la carpeta del proyecto, entra en ella e inicializa Git.</p>
+            <p class="text-slate-400 text-sm mt-1">
+              Crea la carpeta del proyecto, entra en ella e inicializa Git.
+            </p>
             <div class="mt-4 rounded-xl bg-slate-950/80 border border-emerald-500/20 overflow-hidden">
               <div class="flex items-center gap-2 px-4 py-2 border-b border-white/5 bg-slate-900/80">
                 <span class="w-3 h-3 rounded-full bg-red-400"></span>
@@ -49,10 +59,14 @@ git init</code></pre>
 
       <article class="group rounded-2xl border border-white/10 bg-white/5 backdrop-blur-md shadow-xl shadow-black/20 p-6 hover:border-indigo-400/30 transition">
         <div class="flex items-start gap-4">
-          <div class="shrink-0 w-12 h-12 rounded-xl bg-indigo-600 text-white flex items-center justify-center font-bold text-lg shadow-lg shadow-indigo-950/40">02</div>
+          <div class="shrink-0 w-12 h-12 rounded-xl bg-indigo-600 text-white flex items-center justify-center font-bold text-lg shadow-lg shadow-indigo-950/40">
+            02
+          </div>
           <div class="w-full">
             <h2 class="text-lg md:text-xl font-bold text-white">Primer commit local</h2>
-            <p class="text-slate-400 text-sm mt-1">Agrega los archivos al área de preparación y registra tu primer cambio.</p>
+            <p class="text-slate-400 text-sm mt-1">
+              Agrega los archivos al área de preparación y registra tu primer cambio.
+            </p>
             <div class="mt-4 rounded-xl bg-slate-950/80 border border-emerald-500/20 overflow-hidden">
               <div class="flex items-center gap-2 px-4 py-2 border-b border-white/5 bg-slate-900/80">
                 <span class="w-3 h-3 rounded-full bg-red-400"></span>
@@ -69,20 +83,28 @@ git commit -m "Descripción de lo que hicimos"</code></pre>
 
       <article class="rounded-2xl border border-amber-400/20 bg-amber-500/5 backdrop-blur-md shadow-xl shadow-black/20 p-6">
         <div class="flex items-start gap-4">
-          <div class="shrink-0 w-12 h-12 rounded-xl bg-amber-500 text-slate-950 flex items-center justify-center font-bold text-lg shadow-lg shadow-amber-950/30">03</div>
+          <div class="shrink-0 w-12 h-12 rounded-xl bg-amber-500 text-slate-950 flex items-center justify-center font-bold text-lg shadow-lg shadow-amber-950/30">
+            03
+          </div>
           <div>
             <h2 class="text-lg md:text-xl font-bold text-amber-300">Crear repositorio en GitHub</h2>
-            <p class="text-slate-300 text-sm mt-2">Ingresa a GitHub desde tu navegador y crea un repositorio remoto para vincular tu proyecto local.</p>
+            <p class="text-slate-300 text-sm mt-2">
+              Ingresa a GitHub desde tu navegador y crea un repositorio remoto para vincular tu proyecto local.
+            </p>
           </div>
         </div>
       </article>
 
       <article class="group rounded-2xl border border-white/10 bg-white/5 backdrop-blur-md shadow-xl shadow-black/20 p-6 hover:border-indigo-400/30 transition">
         <div class="flex items-start gap-4">
-          <div class="shrink-0 w-12 h-12 rounded-xl bg-indigo-600 text-white flex items-center justify-center font-bold text-lg shadow-lg shadow-indigo-950/40">04</div>
+          <div class="shrink-0 w-12 h-12 rounded-xl bg-indigo-600 text-white flex items-center justify-center font-bold text-lg shadow-lg shadow-indigo-950/40">
+            04
+          </div>
           <div class="w-full">
             <h2 class="text-lg md:text-xl font-bold text-white">Vincular repositorio remoto</h2>
-            <p class="text-slate-400 text-sm mt-1">Conecta tu proyecto local con el repositorio que creaste en GitHub.</p>
+            <p class="text-slate-400 text-sm mt-1">
+              Conecta tu proyecto local con el repositorio que creaste en GitHub.
+            </p>
             <div class="mt-4 rounded-xl bg-slate-950/80 border border-emerald-500/20 overflow-hidden">
               <div class="flex items-center gap-2 px-4 py-2 border-b border-white/5 bg-slate-900/80">
                 <span class="w-3 h-3 rounded-full bg-red-400"></span>
@@ -90,7 +112,7 @@ git commit -m "Descripción de lo que hicimos"</code></pre>
                 <span class="w-3 h-3 rounded-full bg-green-400"></span>
                 <span class="ml-3 text-xs text-slate-500">Terminal</span>
               </div>
-              <pre class="p-4 text-sm md:text-base font-mono text-emerald-400 whitespace-pre-wrap"><code>git remote add origin <span class="text-white">URL_DEL_REPOSITORIO_REMOTO</span></code></pre>
+              <pre class="p-4 text-sm md:text-base font-mono text-emerald-400 whitespace-pre-wrap"><code>git remote add origin URL_DEL_REPOSITORIO_REMOTO</code></pre>
             </div>
           </div>
         </div>
@@ -98,10 +120,14 @@ git commit -m "Descripción de lo que hicimos"</code></pre>
 
       <article class="group rounded-2xl border border-white/10 bg-white/5 backdrop-blur-md shadow-xl shadow-black/20 p-6 hover:border-indigo-400/30 transition">
         <div class="flex items-start gap-4">
-          <div class="shrink-0 w-12 h-12 rounded-xl bg-indigo-600 text-white flex items-center justify-center font-bold text-lg shadow-lg shadow-indigo-950/40">05</div>
+          <div class="shrink-0 w-12 h-12 rounded-xl bg-indigo-600 text-white flex items-center justify-center font-bold text-lg shadow-lg shadow-indigo-950/40">
+            05
+          </div>
           <div class="w-full">
             <h2 class="text-lg md:text-xl font-bold text-white">Enviar el proyecto a GitHub</h2>
-            <p class="text-slate-400 text-sm mt-1">Haz el primer push para subir tu proyecto a la nube.</p>
+            <p class="text-slate-400 text-sm mt-1">
+              Haz el primer push para subir tu proyecto al repositorio remoto.
+            </p>
             <div class="mt-4 rounded-xl bg-slate-950/80 border border-emerald-500/20 overflow-hidden">
               <div class="flex items-center gap-2 px-4 py-2 border-b border-white/5 bg-slate-900/80">
                 <span class="w-3 h-3 rounded-full bg-red-400"></span>
@@ -117,10 +143,14 @@ git commit -m "Descripción de lo que hicimos"</code></pre>
 
       <article class="group rounded-2xl border border-white/10 bg-white/5 backdrop-blur-md shadow-xl shadow-black/20 p-6 hover:border-indigo-400/30 transition">
         <div class="flex items-start gap-4">
-          <div class="shrink-0 w-12 h-12 rounded-xl bg-indigo-600 text-white flex items-center justify-center font-bold text-lg shadow-lg shadow-indigo-950/40">06</div>
+          <div class="shrink-0 w-12 h-12 rounded-xl bg-indigo-600 text-white flex items-center justify-center font-bold text-lg shadow-lg shadow-indigo-950/40">
+            06
+          </div>
           <div class="w-full">
             <h2 class="text-lg md:text-xl font-bold text-white">Actualizar con nuevos cambios</h2>
-            <p class="text-slate-400 text-sm mt-1">Cada vez que modifiques tu proyecto, repite este flujo.</p>
+            <p class="text-slate-400 text-sm mt-1">
+              Cada vez que modifiques tu proyecto, repite este flujo.
+            </p>
             <div class="mt-4 rounded-xl bg-slate-950/80 border border-emerald-500/20 overflow-hidden">
               <div class="flex items-center gap-2 px-4 py-2 border-b border-white/5 bg-slate-900/80">
                 <span class="w-3 h-3 rounded-full bg-red-400"></span>
@@ -129,25 +159,38 @@ git commit -m "Descripción de lo que hicimos"</code></pre>
                 <span class="ml-3 text-xs text-slate-500">Terminal</span>
               </div>
               <pre class="p-4 text-sm md:text-base font-mono text-emerald-400 whitespace-pre-wrap"><code>git add .
-git commit -m "nuevos cambios"
+git commit -m "Nuevos cambios"
 git push origin master</code></pre>
             </div>
           </div>
         </div>
       </article>
+
     </section>
+
+    <!-- Segundo encabezado -->
     <header class="text-center mb-12">
+      <span class="inline-block px-4 py-1.5 rounded-full bg-cyan-500/10 border border-cyan-400/20 text-cyan-300 text-sm font-medium mb-4">
+        Trabajo con ramas
+      </span>
       <h1 class="text-3xl md:text-5xl font-extrabold text-white tracking-tight">
-        Comandos Para Crear Ramas en Git
+        Comandos para crear y manejar ramas en Git
       </h1>
     </header>
+
+    <!-- Sección 2 -->
     <section class="grid gap-6">
-      <article class="group rounded-2xl border border-white/10 bg-white/5 backdrop-blur-md shadow-xl shadow-black/20 p-6 hover:border-indigo-400/30 transition">
+
+      <article class="group rounded-2xl border border-white/10 bg-white/5 backdrop-blur-md shadow-xl shadow-black/20 p-6 hover:border-cyan-400/30 transition">
         <div class="flex items-start gap-4">
-          <div class="shrink-0 w-12 h-12 rounded-xl bg-indigo-600 text-white flex items-center justify-center font-bold text-lg shadow-lg shadow-indigo-950/40">01</div>
+          <div class="shrink-0 w-12 h-12 rounded-xl bg-cyan-600 text-white flex items-center justify-center font-bold text-lg shadow-lg shadow-cyan-950/40">
+            01
+          </div>
           <div class="w-full">
-            <h2 class="text-lg md:text-xl font-bold text-white">Verificamos que Ramas Tenemos </h2>
-            <p class="text-slate-400 text-sm mt-1">Verificacion inicial de que si tenemos alguna rama existente</p>
+            <h2 class="text-lg md:text-xl font-bold text-white">Verificar qué ramas existen</h2>
+            <p class="text-slate-400 text-sm mt-1">
+              Comprueba si ya existe alguna rama en tu repositorio.
+            </p>
             <div class="mt-4 rounded-xl bg-slate-950/80 border border-emerald-500/20 overflow-hidden">
               <div class="flex items-center gap-2 px-4 py-2 border-b border-white/5 bg-slate-900/80">
                 <span class="w-3 h-3 rounded-full bg-red-400"></span>
@@ -160,65 +203,83 @@ git push origin master</code></pre>
           </div>
         </div>
       </article>
-      <article class="group rounded-2xl border border-white/10 bg-white/5 backdrop-blur-md shadow-xl shadow-black/20 p-6 hover:border-indigo-400/30 transition">
-        <div class="flex items-start gap-4">
-          <div class="shrink-0 w-12 h-12 rounded-xl bg-indigo-600 text-white flex items-center justify-center font-bold text-lg shadow-lg shadow-indigo-950/40">02</div>
-          <div class="w-full">
-            <h2 class="text-lg md:text-xl font-bold text-white">Creacion de una nueva Rama </h2>
-            <p class="text-slate-400 text-sm mt-1">Creamos una nueva rama para hacer los cambios nesesarios sin afectar la rama principal</p>
-            <div class="mt-4 rounded-xl bg-slate-950/80 border border-emerald-500/20 overflow-hidden">
-              <div class="flex items-center gap-2 px-4 py-2 border-b border-white/5 bg-slate-900/80">
-                <span class="w-3 h-3 rounded-full bg-red-400"></span>
-                <span class="w-3 h-3 rounded-full bg-yellow-400"></span>
-                <span class="w-3 h-3 rounded-full bg-green-400"></span>
-                <span class="ml-3 text-xs text-slate-500">Terminal</span>
-              </div>
-              <pre class="p-4 text-sm md:text-base font-mono text-emerald-400 whitespace-pre-wrap"><code>git branch "Nombre_de_la_Rama"</code></pre>
-            </div>
-          </div>
-        </div>
-      </article>
-      <article class="group rounded-2xl border border-white/10 bg-white/5 backdrop-blur-md shadow-xl shadow-black/20 p-6 hover:border-indigo-400/30 transition">
-        <div class="flex items-start gap-4">
-          <div class="shrink-0 w-12 h-12 rounded-xl bg-indigo-600 text-white flex items-center justify-center font-bold text-lg shadow-lg shadow-indigo-950/40">03</div>
-          <div class="w-full">
-            <h2 class="text-lg md:text-xl font-bold text-white">Cambiamos a la Nueva Rama </h2>
-            <p class="text-slate-400 text-sm mt-1">Si ya tenemos creada la nueva rama tenemos que cambiarla a esa rapa para poder modificar, sin afectar a la rama master o main</p>
-            <div class="mt-4 rounded-xl bg-slate-950/80 border border-emerald-500/20 overflow-hidden">
-              <div class="flex items-center gap-2 px-4 py-2 border-b border-white/5 bg-slate-900/80">
-                <span class="w-3 h-3 rounded-full bg-red-400"></span>
-                <span class="w-3 h-3 rounded-full bg-yellow-400"></span>
-                <span class="w-3 h-3 rounded-full bg-green-400"></span>
-                <span class="ml-3 text-xs text-slate-500">Terminal</span>
-              </div>
-              <pre class="p-4 text-sm md:text-base font-mono text-emerald-400 whitespace-pre-wrap"><code>git switch "Nombre_de_la_Rama"</code></pre>
-            </div>
-             <p class="text-slate-400 text-sm mt-1">Una ves ya estamos en la nueva rama se nos copiara todo el codigo de la rama master y podemos realizar los cambios</p>
-          </div>
-        </div>
-      </article>
-      <article class="group rounded-2xl border border-white/10 bg-white/5 backdrop-blur-md shadow-xl shadow-black/20 p-6 hover:border-indigo-400/30 transition">
-        <div class="flex items-start gap-4">
-          <div class="shrink-0 w-12 h-12 rounded-xl bg-indigo-600 text-white flex items-center justify-center font-bold text-lg shadow-lg shadow-indigo-950/40">04</div>
-          <div class="w-full">
-            <h2 class="text-lg md:text-xl font-bold text-white">Integracion a la rama Principal </h2>
-            <p class="text-slate-400 text-sm mt-1">Una ves aprobado todos los cambios y queramos que todo nuestro trabajo se refleje en la rama principal, lo primero que tenemos que hacer es apuntar o volver a la rama principal con el paso N°3</p>
-            <div class="mt-4 rounded-xl bg-slate-950/80 border border-emerald-500/20 overflow-hidden">
-              <div class="flex items-center gap-2 px-4 py-2 border-b border-white/5 bg-slate-900/80">
-                <span class="w-3 h-3 rounded-full bg-red-400"></span>
-                <span class="w-3 h-3 rounded-full bg-yellow-400"></span>
-                <span class="w-3 h-3 rounded-full bg-green-400"></span>
-                <span class="ml-3 text-xs text-slate-500">Terminal</span>
-              </div>
-              <pre class="p-4 text-sm md:text-base font-mono text-emerald-400 whitespace-pre-wrap"><code>git pull origin "Nombre_de_la_Rama a integrar a la rama principal"</code></pre>
-               <p class="text-slate-400 text-sm mt-1 ml-2">o tambien</p>
-               <pre class="p-4 text-sm md:text-base font-mono text-emerald-400 whitespace-pre-wrap"><code>git merge "Nombre_de_la_Rama  a integrar a la rama principal"</code></pre>
 
+      <article class="group rounded-2xl border border-white/10 bg-white/5 backdrop-blur-md shadow-xl shadow-black/20 p-6 hover:border-cyan-400/30 transition">
+        <div class="flex items-start gap-4">
+          <div class="shrink-0 w-12 h-12 rounded-xl bg-cyan-600 text-white flex items-center justify-center font-bold text-lg shadow-lg shadow-cyan-950/40">
+            02
+          </div>
+          <div class="w-full">
+            <h2 class="text-lg md:text-xl font-bold text-white">Crear una nueva rama</h2>
+            <p class="text-slate-400 text-sm mt-1">
+              Crea una nueva rama para hacer cambios sin afectar la rama principal.
+            </p>
+            <div class="mt-4 rounded-xl bg-slate-950/80 border border-emerald-500/20 overflow-hidden">
+              <div class="flex items-center gap-2 px-4 py-2 border-b border-white/5 bg-slate-900/80">
+                <span class="w-3 h-3 rounded-full bg-red-400"></span>
+                <span class="w-3 h-3 rounded-full bg-yellow-400"></span>
+                <span class="w-3 h-3 rounded-full bg-green-400"></span>
+                <span class="ml-3 text-xs text-slate-500">Terminal</span>
+              </div>
+              <pre class="p-4 text-sm md:text-base font-mono text-emerald-400 whitespace-pre-wrap"><code>git branch nombre-de-la-rama</code></pre>
             </div>
-             <p class="text-slate-400 text-sm mt-1 ml-2">NOTA.- Para integrar una rama a la rama principal si o si tienes que estar en la rama principal</p>
           </div>
         </div>
       </article>
+
+      <article class="group rounded-2xl border border-white/10 bg-white/5 backdrop-blur-md shadow-xl shadow-black/20 p-6 hover:border-cyan-400/30 transition">
+        <div class="flex items-start gap-4">
+          <div class="shrink-0 w-12 h-12 rounded-xl bg-cyan-600 text-white flex items-center justify-center font-bold text-lg shadow-lg shadow-cyan-950/40">
+            03
+          </div>
+          <div class="w-full">
+            <h2 class="text-lg md:text-xl font-bold text-white">Cambiar a la nueva rama</h2>
+            <p class="text-slate-400 text-sm mt-1">
+              Después de crearla, cámbiate a esa rama para trabajar allí.
+            </p>
+            <div class="mt-4 rounded-xl bg-slate-950/80 border border-emerald-500/20 overflow-hidden">
+              <div class="flex items-center gap-2 px-4 py-2 border-b border-white/5 bg-slate-900/80">
+                <span class="w-3 h-3 rounded-full bg-red-400"></span>
+                <span class="w-3 h-3 rounded-full bg-yellow-400"></span>
+                <span class="w-3 h-3 rounded-full bg-green-400"></span>
+                <span class="ml-3 text-xs text-slate-500">Terminal</span>
+              </div>
+              <pre class="p-4 text-sm md:text-base font-mono text-emerald-400 whitespace-pre-wrap"><code>git switch nombre-de-la-rama</code></pre>
+            </div>
+            <p class="text-slate-400 text-sm mt-3">
+              Al cambiarte a la nueva rama, tendrás una copia del código actual de la rama principal para poder modificarlo.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <article class="group rounded-2xl border border-white/10 bg-white/5 backdrop-blur-md shadow-xl shadow-black/20 p-6 hover:border-cyan-400/30 transition">
+        <div class="flex items-start gap-4">
+          <div class="shrink-0 w-12 h-12 rounded-xl bg-cyan-600 text-white flex items-center justify-center font-bold text-lg shadow-lg shadow-cyan-950/40">
+            04
+          </div>
+          <div class="w-full">
+            <h2 class="text-lg md:text-xl font-bold text-white">Integrar cambios a la rama principal</h2>
+            <p class="text-slate-400 text-sm mt-1">
+              Cuando tu trabajo esté listo, vuelve a la rama principal y luego integra la rama que creaste.
+            </p>
+            <div class="mt-4 rounded-xl bg-slate-950/80 border border-emerald-500/20 overflow-hidden">
+              <div class="flex items-center gap-2 px-4 py-2 border-b border-white/5 bg-slate-900/80">
+                <span class="w-3 h-3 rounded-full bg-red-400"></span>
+                <span class="w-3 h-3 rounded-full bg-yellow-400"></span>
+                <span class="w-3 h-3 rounded-full bg-green-400"></span>
+                <span class="ml-3 text-xs text-slate-500">Terminal</span>
+              </div>
+              <pre class="p-4 text-sm md:text-base font-mono text-emerald-400 whitespace-pre-wrap"><code>git switch main
+git merge nombre-de-la-rama</code></pre>
+            </div>
+            <p class="text-slate-400 text-sm mt-3">
+              Nota: para hacer el <strong>merge</strong>, primero debes estar ubicado en la rama principal.
+            </p>
+          </div>
+        </div>
+      </article>
+
     </section>
   </main>
 </body>
